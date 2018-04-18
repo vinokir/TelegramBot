@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="PersonContext-Web.config Connection String" description="PersonContext Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="Data Source=PC;Initial Catalog=BOOKDB_313c5df731b543189712de3197575414;Integrated Security=True;Connect Timeout=30" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Кирилл\\source\\repos\\LoymaxTestTask\\LoymaxTestTask\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PersonContext']/@connectionString" />
+  </parameter>
+  <parameter name="PersonContext_DatabasePublish-Web.config Connection String" description="PersonContext_DatabasePublish Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="PersonContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Кирилл\\source\\repos\\LoymaxTestTask\\LoymaxTestTask\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PersonContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

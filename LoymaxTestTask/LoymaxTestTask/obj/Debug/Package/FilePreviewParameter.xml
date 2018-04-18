@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Кирилл\\source\\repos\\LoymaxTestTask\\LoymaxTestTask\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Кирилл\\source\\repos\\LoymaxTestTask\\LoymaxTestTask\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="PersonContext-Web.config Connection String" description="" value="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Кирилл\source\repos\LoymaxTestTask\LoymaxTestTask\App_Data\BookDB.mdf;Integrated Security=True;Connect Timeout=30" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Кирилл\\source\\repos\\LoymaxTestTask\\LoymaxTestTask\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PersonContext']/@connectionString" />
+  </parameter>
+</parameters>
